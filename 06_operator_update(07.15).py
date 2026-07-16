@@ -57,3 +57,33 @@ print("안녕" + " " + "하세요")
 print("안녕" * 5)
 
 # 문자열에 연산자를 사용할 경우 모두 이어져서 나온다.
+
+# ====================================================
+print("=== 비교연산자 ===")
+
+# 미만, 초과, 이하, 이상, 같다, 다르다(!=)
+# 비교 결과는 무조건 True 아니면 Fasle
+
+print(7 < 16)  # True
+print(7 > 16)
+print(7 <= 16)
+print(7 >= 16)
+print(7 == 7)
+print(7 != 7)
+
+# 비교연산자는 문자열 비교도 가능
+print("hello" == "hello")  # True
+print("정상" == "정상")  # True
+
+# 비교연산자를 사용해 문자열을 비교할 때 주의사항
+
+# 1. 대소문자 구분
+print("hello" == "Hello")  # False
+
+# 2. 공백이 있어도 다르다고 판단
+print("정상" == "정상 ")  # False
+
+# 3. 부정연산자 !=
+print("hello" != "hello")  # False (두 값이 동일한데 느낌표로 인해서 값이 반대로 출력됨)
+print("hello" != "hello ")  # True
+print("hello" != "Hello")  # True
