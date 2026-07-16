@@ -35,5 +35,15 @@
 
 # 실습 6.
 
-a = "PYTHON"
-print(a[::-1])
+# a = "PYTHON"
+# print(a[::-1])
+
+# 실습 7.
+
+# num = "01012345678"
+# print(len(num))
+
+# 실습 8.
+
+word = "a,b,c,d"
+print(word.count(","))
