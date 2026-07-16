@@ -112,3 +112,26 @@ hi = "안녕"  # hello 변수에 hi 변수를 할당하기 전 hi 변수 선언
 hello = hi  # print(hello) > 안녕
 print("=== 변수 hello(안녕)와 변수 hi(안녕) 비교 ===")
 print(hello == hi)  # True
+
+# =================================================================================
+
+# 논리연산자 - and, or, not
+# 1. and: 둘 다 True여야 True를 반환
+print(5 == 5 and 7 == 7)  # 양쪽이 모두 True기에 true를 반환
+print(
+    5 == 7 and 7 == 7
+)  # False + True = False => 첫 번째 조건이 False이면 뒤에 조건은 확인 안 함
+print(5 == 5 and 7 != 7)  # True + False = False
+
+# 2. OR: 하나라도 True라면 True 반환 -> 앞에 있는거 먼저 본다다
+print(5 == 5 or 7 == 7)  # True + True = True
+print(5 == 7 or 7 == 7)  # False + True = True
+print(
+    5 == 5 or 7 != 7
+)  # True + False = True => 첫 번째 조건이 True라면 뒤에 조건을 확인 안 함
+
+# not: 부정연산자 -> 값을 반대로 뒤집음
+print(not True)  # False가 나온다다
+print(
+    not 5 == 5
+)  # 5 == 5를 연산하여 True를 반환 -> not True로 동작하기에 True를 뒤집어 False를 반환 -> 반환받은 False를 터미널로 출력
