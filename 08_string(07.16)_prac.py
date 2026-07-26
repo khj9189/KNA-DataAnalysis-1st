@@ -45,5 +45,7 @@
 
 # 실습 8.
 
-word = "a,b,c,d"
-print(word.count(","))
+# word = "a,b,c,d"
+# print(word.count(","))
+
+
