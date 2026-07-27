@@ -48,4 +48,132 @@
 # word = "a,b,c,d"
 # print(word.count(","))
 
+# 실습 9.
 
+# csv = "sensor_log.csv"
+# print(csv.startswith("sensor"))
+# print(csv.endswith(".csv"))
+
+# 실습 10.
+
+# word = "ready"
+# word1 = word.upper()
+# print(word1)
+
+# 실습 11.
+
+# word2 = "WARNING"
+# word3 = word2.lower()
+# print(word3)
+
+# 실습 12.
+
+# name = "kim chul soo"
+# print(name.title())
+
+# 실습 13.
+
+# a = "Fault"
+# b = "FAULT"
+
+# print(a == b)
+
+# print(a.lower() == b.lower())
+
+# 실습 14.
+
+# print("ABC".isupper())
+# print("abc".islower())
+# print("Abc".islower())
+
+# 실습 15.
+
+# csv = "Sensor_LOG.CSV"
+
+# csv_lower = csv.lower()
+
+# print(csv_lower.startswith("sensor"))
+# print(csv_lower.endswith(".csv"))
+# print(csv.endswith(".csv"))
+
+# 연습문제_1
+
+# word = "python"
+
+# word1 = "py" + word[2:3].upper() + "hon"
+
+# print(word1)
+
+# word = "python"
+# print(word.eplace("t", "T"))
+
+# print("T".join(word.split("t")))
+
+# print(word[2].upper().join(word.split("t")))
+
+# 실습 16.
+# status = " 가동중 "
+# print("[" + status.strip() + "]")
+
+# 실습 17.
+
+# status_1 = " 대기 "
+# print("[" + status_1.lstrip() + "]" + "/" "[" + status_1.rstrip() + "]")
+
+# 실습 18.
+
+# status = "WARNING"
+# print(status.strip().lower())
+
+# 연습문제 체이닝_2
+
+# str = "   Warning    "
+
+# print("[" + str.lower() + "]")
+# print("[" + str.strip().lower() + "]")
+
+# 실습 19.
+
+# word = "PUMP A 03"
+
+# print(word.split())
+
+# 실습 20.
+
+# word = "a,b,c,d"
+
+# print(word.split(","))
+
+
+# 실습 21.
+# data = ["2025", "01", "15"]
+# print("-".join(data))
+
+# 실습 22
+
+# date = "2025/01/15"
+
+# parts = date.split("/")
+# joined = "-".join(parts)
+# print(joined)
+
+# joined = "-".join(date.split("/"))  # 순서는 괄호 안에 들어가있을수록 먼저 진행한다.
+# print(joined)
+
+# 실습 23
+
+# word = "1, NORMAL ,25.3"
+
+# parts = word.split(",")
+
+# status = parts[1].strip().lower()
+
+# print(status)
+
+
+# 실습 24
+
+name = " PUMP_A"
+temp = 87
+
+print(f"설비{name},온도{temp}")
