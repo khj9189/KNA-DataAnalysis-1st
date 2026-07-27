@@ -508,8 +508,8 @@ print("=== join() ===")
 
 fruits_list = ["딸기", "거봉", "키위", "사쿠란보"]
 
-"-".join(fruits_list)
-",".join(fruits_list)
+print("-".join(fruits_list))
+print(",".join(fruits_list))
 
 # 모든 요소가 합쳐져서 하나의 문자열로 반환
 
@@ -531,3 +531,7 @@ print("안녕", "하세", end="요\n")
 # print 함수 + 사용 시 sep과 end
 
 # 기본적으로 print  문에는 줄바꿈이 자동으로 저장되어 있음
+
+a = "안녕, 하세요, 반가워요"
+
+word_1 = a.split()
