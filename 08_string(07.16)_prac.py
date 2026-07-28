@@ -173,7 +173,36 @@
 
 # 실습 24
 
-name = " PUMP_A"
-temp = 87
+# name = " PUMP_A"
+# temp = 87
 
-print(f"설비{name},온도{temp}")
+# print(f"설비{name},온도{temp}도")
+
+
+# 실습 25
+
+# a = 86.0
+# b = 87.0
+# c = 88.0
+
+# avg = (a + b + c) / 3
+
+# print(f"평균 {avg}")
+
+# 실습 26.
+
+# num = 87.456
+# print(f"{num:.1f}/{num:.2f}")
+
+# 실습 27.
+
+word = " 5 , sensor_2 , WARNING , 0.78912 "
+edit = word.strip().split(",")
+sid = edit[1].strip()
+status = edit[2].strip().lower()
+num = float(edit[3].strip())
+# 이 수식이 없다면 문자열 형태로 주어지기 때문에 숫자로 계산이 안된다.
+# 그렇기에 float을 통해 문자열 값들을 숫자로 바꿔줘야 한다.
+
+print(f"[센서{sid}]상태{status}측정값{num:.2}")
+# 문자열에서 :.2 이거를 쓰는 경우 에러는 안나지만 의미가 달라진다. -> 2자리까지 나타내라는 의미가 된다.
