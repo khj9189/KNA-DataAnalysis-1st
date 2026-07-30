@@ -88,13 +88,13 @@
 
 # 실습 9.
 
-temp = [0, -1, 4, 3, 9, 10]
+# temp = [0, -1, 4, 3, 9, 10]
 
-temp.sort()
-print(temp)
+# temp.sort()
+# print(temp)
 
-temp.reverse()
-print(temp)
+# temp.reverse()
+# print(temp)
 
-print(temp.count(10))
-print(temp.index(10))
+# print(temp.count(10))
+# print(temp.index(10))
