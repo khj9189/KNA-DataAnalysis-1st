@@ -49,21 +49,3 @@
 #         new_avg = sum_new_temps / new_count
 
 # print("고온 개수:", len(new_temps), "\n" "고온평균:", new_avg)
-
-temps = [32, 35, 31, 33, 29, 27, 20, 19]
-
-sum_temps = 0
-for i in temps:
-    sum_temps += i
-avg = sum_temps / len(temps)
-print(f"전체 평균: {avg}")
-
-new_temps = []
-sum_new_temps = 0
-for i in temps:
-    if i > 30:
-        new_temps.append(i)
-        sum_new_temps += i
-new_avg = sum_new_temps / len(new_temps)
-
-print("고온 개수:", len(new_temps), "\n" "고온평균:", new_avg)
