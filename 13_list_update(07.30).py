@@ -48,3 +48,6 @@ print(rows[1][1])
 # 리스트 안의 리스트 온도값만 출력하기
 for row in rows:
     print(row[0], "온도", row[1])
+
+# rows는 리스트를 담고 있는 큰 리스트
+# row는 rows안에 있는 작은 리스트 -> ["펌프", 25] 하나
