@@ -48,22 +48,6 @@ sensors = [
     ("펌프압력", 95, (4, 8)),
 ]
 
-for name, value, pos in sensors:
-    x, y = pos
-    print(name, "위치:", x, y)
-    for name, value, pos in sensors:
-        x, y = pos
-        if x <= 5:
-            print(name, "1구역")
-
-print("=== 실습 3번 ===")
-
-sensors = [
-    ("모터온도", 78, (3, 5)),
-    ("베어링진동", 0.5, (7, 2)),
-    ("펌프압력", 95, (4, 8)),
-]
-
 for name, value, (x, y) in sensors:
     print(name, (x, y))
     if x <= 5:
